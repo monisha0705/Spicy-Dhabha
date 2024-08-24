@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+     background-image: url("image/chillies.webp"); 
+     background-size: cover;
+     background-position: center;
+     height:100vh;
+}
+header a{
+    text-decoration: none;
+    color: yellow;
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+
+#logo{
+    flex: 3;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+nav :hover{
+    color: white;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding: 20px;
+}
+.tagline1{
+    color: red;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: yellow;
+}
+.callus{
+    color: white;
+}
+.maintext div{
+    margin: 15px;
+}
+.maintext button{
+    width: 20vmin;
+    border-radius: 10px;
+    background-color:aqua;
+    padding: 7px;
+    border: aqua;
+}
+.menu{
+    display: grid;
+   background-color: gray;
+   color: white;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+#Menu{
+    background-color:gray;
+    color:red;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+}
+.location{
+    background-color: gray;
+    margin: 0;
+    color: red;
+    text-align: center;
+    
+}
+address{
+    background-color: gray;
+
+
+}
+.table{
+    color: aqua;
+}
+table{
+    width: 100%;
+    padding: 0.5em;
+}
+#logo{
+      font-weight: 900;
+}
+ address{
+    text-align: center;
+    padding: 1em;
+ }
